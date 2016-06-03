@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "angularjs-datepicker",
+      "C:\\Development\\Loopback App\\Loopback-App\\client"
+    ]
+  ],
+  "_from": "angularjs-datepicker@*",
+  "_id": "angularjs-datepicker@2.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angularjs-datepicker",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/angularjs-datepicker-2.1.4.tgz_1464681076079_0.5906743062660098"
+  },
+  "_npmUser": {
+    "email": "tech@720kb.net",
+    "name": "drive"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angularjs-datepicker",
+    "raw": "angularjs-datepicker",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angularjs-datepicker/-/angularjs-datepicker-2.1.4.tgz",
+  "_shasum": "33c3237bce43cfa9e3c800eace3612abc463033a",
+  "_shrinkwrap": null,
+  "_spec": "angularjs-datepicker",
+  "_where": "C:\\Development\\Loopback App\\Loopback-App\\client",
+  "author": {
+    "email": "filippo.oretti@gmail.com",
+    "name": "Filippo Oretti",
+    "url": "https://github.com/45kb"
+  },
+  "bugs": {
+    "url": "https://github.com/720kb/angular-datepicker/issues"
+  },
+  "contributors": [
+    {
+      "name": "Dario Andrei",
+      "email": "wouldgo84@gmail.com",
+      "url": "https://github.com/wouldgo"
+    }
+  ],
+  "dependencies": {},
+  "description": "A datepicker directive for angularjs.",
+  "devDependencies": {
+    "connect-modrewrite": "*",
+    "grunt": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-eslint": "*",
+    "grunt-jscs": "*",
+    "husky": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "33c3237bce43cfa9e3c800eace3612abc463033a",
+    "tarball": "https://registry.npmjs.org/angularjs-datepicker/-/angularjs-datepicker-2.1.4.tgz"
+  },
+  "gitHead": "5f99104a48c65d8c915c343c09f7c06158350c03",
+  "homepage": "http://720kb.github.io/angular-datepicker",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "date",
+    "datepicker",
+    "input",
+    "input"
+  ],
+  "license": "MIT",
+  "main": "dist/angular-datepicker.min.js",
+  "maintainers": [
+    {
+      "name": "drive",
+      "email": "tech@720kb.net"
+    }
+  ],
+  "name": "angularjs-datepicker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/720kb/angular-datepicker.git"
+  },
+  "scripts": {
+    "precommit": "grunt lint"
+  },
+  "version": "2.1.4"
+}

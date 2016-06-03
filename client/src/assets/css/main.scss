@@ -1,0 +1,190 @@
+
+$gray: #56565d;
+$lighter-gray: rgba(86, 86, 93, .58);
+$teal: #26debd;
+
+html {
+	height:100%;
+}
+
+h1, h2, h3, h5, p, label, input {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: $gray;
+}
+
+body {
+	height: 100%;
+
+	.height-spacer {
+		width: 100%;
+		height: 30px;
+	}
+
+	.login-page {
+		padding-top: 10%;
+		height: 90%;
+
+		.welcome {
+			margin-bottom: 30px;
+
+			h2 {
+				text-align: center;
+			}
+		}
+
+		.input-block {
+			> div {
+
+				>div {
+					width: 100%;
+
+					p {
+						margin-bottom: 5px;
+						margin-top: 15px;
+						font-weight: 500;
+					}
+
+					input {
+						width: 100%;
+						height: 40px;
+						padding-left: 5px;
+
+						border: 1.5px solid $lighter-gray;
+						border-radius: 1px;
+						line-height: 1.4em;
+						font-size: 1.4em;
+						outline: none;
+					}
+
+					input:focus {
+						border: 1.5px solid $teal;
+					}
+
+					.login-button {
+						width: 100%;
+						border: none;
+						height: 2.4em;
+						background-color: $teal;
+						font-size: 1.3em;
+						margin-top: 40px;
+						padding-top: 0.5em;
+						color: white;
+						text-align: center;
+
+					}
+
+					.login-button:hover {
+						border: none;
+						background-color: $gray;
+						color: white;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+
+	.order-page {
+		padding-top: 5%;
+		height: 95%;
+		padding-bottom: 50px;
+
+		.container {
+			width: 100%;
+		}
+
+		.welcome {
+			margin-bottom: 40px;
+		}
+
+		h5 {
+			font-size: 1.2em;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		.datepicker-row {
+			padding-bottom: 10px;
+			.z-datepicker {
+				width: 100%;
+				padding-bottom: 30px;
+
+				/* Modify calender header color */
+				._720kb-datepicker-calendar-header {
+					background: $teal !important;
+				}
+
+				input {
+					width: 100%;
+					height: 45px;
+					padding-left: 5px;
+
+					text-align: center;
+					border: 1.5px solid $teal;
+					border-radius: 1px;
+					line-height: 1.4em;
+					font-size: 1.4em;
+					color: black;
+					outline: none;
+				}
+
+				input:focus {
+					border: 3px solid $teal;
+				}
+			}
+		}
+
+		.order-rows {
+			p {
+				margin-bottom: 5px;
+				margin-top: 15px;
+				font-weight: 500;
+			}
+
+			input {
+				width: 100%;
+				height: 40px;
+				padding-left: 5px;
+
+				border: 1.5px solid $lighter-gray;
+				border-radius: 0.5px;
+				line-height: 1.4em;
+				font-size: 1.4em;
+				outline: none;
+
+			}
+
+			input:focus {
+				border: 1.5px solid $teal;
+			}
+
+		}
+
+		.order-button {
+			width: 100%;
+			border: none;
+			height: 2.4em;
+			background-color: $teal;
+			font-size: 1.3em;
+			margin-top: 40px;
+			padding-top: 0.5em;
+			color: white;
+			text-align: center;
+
+		}
+
+		.order-button:hover {
+			border: none;
+			background-color: $gray;
+			color: white;
+			cursor: pointer;
+		}
+
+		.order-button:active {
+			background-color: $teal;
+			color: white;
+		}
+
+	}
+
+}

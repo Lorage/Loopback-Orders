@@ -1,0 +1,92 @@
+<div class="order-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-push-2">
+
+        <div class="container">
+
+          <div class="row welcome">
+      			<div class="col-sm-12 text-center">
+      				<h2>Place your Order</h2>
+      			</div>
+      		</div>
+
+          <div class="row">
+      			<div class="col-sm-12">
+      				<h5>Customer Information</h5>
+      			</div>
+      		</div>
+
+      		<div class="row">
+            <div class="col-sm-12">
+              <div class="order-rows">
+       				  <p>Name</p>
+       				  <input ng-model="vm.orderModel.name"></input>
+       			  </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="order-rows">
+       				  <p>Address</p>
+       				  <input ng-model="vm.orderModel.address"></input>
+       			  </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="order-rows">
+       				  <p>Unit #</p>
+       				  <input ng-model="vm.orderModel.unitnumber"></input>
+       			  </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="order-rows">
+       				  <p>City</p>
+       				  <input ng-model="vm.orderModel.city"></input>
+       			  </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="order-rows">
+       				  <p>State</p>
+       				  <input ng-model="vm.orderModel.state"></input>
+       			  </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="order-rows">
+       				  <p>Zip Code</p>
+       				  <input ng-model="vm.orderModel.zip"></input>
+       			  </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="height-spacer"></div>
+            <hr />
+          </div>
+
+          <div class="row datepicker-row">
+            <div class="col-sm-6 col-sm-push-3 order-rows">
+              <p>Date</p>
+              <datepicker date-format="dd/MM/yyyy" class="z-datepicker">
+                <input ng-model="vm.orderModel.date" type="text" style="width: 100%;" placeholder="Choose a date"/>
+              </datepicker>
+            </div>
+          </div>
+
+          <div class="row">
+            <hr />
+          </div>
+
+          <div class="row">
+            <div class="order-button" ng-click="vm.orderSubmit()">Place Order</div>
+          </div>
+
+        </div>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,29 @@
+<div class="login-page">
+	<div class="container">
+		<div class="row welcome">
+			<div class="col-sm-3 col-sm-push-5 col-md-4 col-md-push-4">
+				<h2>Welcome!</h2>
+			</div>
+		</div>
+
+		<div class="row input-block">
+			<div class="col-sm-5 col-sm-push-4 col-md-4 col-md-push-4">
+
+			 <div>
+				 <p>Email</p>
+				 <input ng-model="vm.userModel.email"></input>
+
+			 </div>
+			 <div>
+				 <p>Password</p>
+				 <input ng-model="vm.userModel.password"></input>
+			 </div>
+
+			 <div>
+				 <div class="login-button" ng-click="vm.loginSubmit()">Log In</div>
+			 </div>
+
+			</div>
+		</div>
+	</div>
+</div>

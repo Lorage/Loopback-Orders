@@ -1,0 +1,117 @@
+html {
+  height: 100%; }
+
+h1, h2, h3, h5, p, label, input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #56565d; }
+
+body {
+  height: 100%; }
+  body .height-spacer {
+    width: 100%;
+    height: 30px; }
+  body .login-page {
+    padding-top: 10%;
+    height: 90%; }
+    body .login-page .welcome {
+      margin-bottom: 30px; }
+      body .login-page .welcome h2 {
+        text-align: center; }
+    body .login-page .input-block > div > div {
+      width: 100%; }
+      body .login-page .input-block > div > div p {
+        margin-bottom: 5px;
+        margin-top: 15px;
+        font-weight: 500; }
+      body .login-page .input-block > div > div input {
+        width: 100%;
+        height: 40px;
+        padding-left: 5px;
+        border: 1.5px solid rgba(86, 86, 93, 0.58);
+        border-radius: 1px;
+        line-height: 1.4em;
+        font-size: 1.4em;
+        outline: none; }
+      body .login-page .input-block > div > div input:focus {
+        border: 1.5px solid #26debd; }
+      body .login-page .input-block > div > div .login-button {
+        width: 100%;
+        border: none;
+        height: 2.4em;
+        background-color: #26debd;
+        font-size: 1.3em;
+        margin-top: 40px;
+        padding-top: 0.5em;
+        color: white;
+        text-align: center; }
+      body .login-page .input-block > div > div .login-button:hover {
+        border: none;
+        background-color: #56565d;
+        color: white;
+        cursor: pointer; }
+  body .order-page {
+    padding-top: 5%;
+    height: 95%;
+    padding-bottom: 50px; }
+    body .order-page .container {
+      width: 100%; }
+    body .order-page .welcome {
+      margin-bottom: 40px; }
+    body .order-page h5 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      font-weight: bold; }
+    body .order-page .datepicker-row {
+      padding-bottom: 10px; }
+      body .order-page .datepicker-row .z-datepicker {
+        width: 100%;
+        padding-bottom: 30px;
+        /* Modify calender header color */ }
+        body .order-page .datepicker-row .z-datepicker ._720kb-datepicker-calendar-header {
+          background: #26debd !important; }
+        body .order-page .datepicker-row .z-datepicker input {
+          width: 100%;
+          height: 45px;
+          padding-left: 5px;
+          text-align: center;
+          border: 1.5px solid #26debd;
+          border-radius: 1px;
+          line-height: 1.4em;
+          font-size: 1.4em;
+          color: black;
+          outline: none; }
+        body .order-page .datepicker-row .z-datepicker input:focus {
+          border: 3px solid #26debd; }
+    body .order-page .order-rows p {
+      margin-bottom: 5px;
+      margin-top: 15px;
+      font-weight: 500; }
+    body .order-page .order-rows input {
+      width: 100%;
+      height: 40px;
+      padding-left: 5px;
+      border: 1.5px solid rgba(86, 86, 93, 0.58);
+      border-radius: 0.5px;
+      line-height: 1.4em;
+      font-size: 1.4em;
+      outline: none; }
+    body .order-page .order-rows input:focus {
+      border: 1.5px solid #26debd; }
+    body .order-page .order-button {
+      width: 100%;
+      border: none;
+      height: 2.4em;
+      background-color: #26debd;
+      font-size: 1.3em;
+      margin-top: 40px;
+      padding-top: 0.5em;
+      color: white;
+      text-align: center; }
+    body .order-page .order-button:hover {
+      border: none;
+      background-color: #56565d;
+      color: white;
+      cursor: pointer; }
+    body .order-page .order-button:active {
+      background-color: #26debd;
+      color: white; }

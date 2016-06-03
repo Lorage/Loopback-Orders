@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ordr </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/lib/angularjs-datepicker/dist/angular-datepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+
+    <!-- JS -->
+    <script src="./assets/lib/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- Angular -->
+    <script src="./assets/lib/angular/angular.min.js"></script>
+    <script src="./assets/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./assets/lib/angular-ui-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="./assets/lib/angularjs-datepicker/dist/angular-datepicker.min.js"></script>
+
+    <!-- Angular Config -->
+    <script src="./app/app.module.js"></script>
+    <script src="./app/app.routes.js"></script>
+
+    <!-- Login -->
+    <script src="./app/components/login/loginController.js"></script>
+    <script src="./app/components/login/userService.js"></script>
+
+    <!-- Order -->
+    <script src="./app/components/order/orderController.js"></script>
+
+
+  </head>
+  <body ng-app="orderclient">
+
+    <ui-view></ui-view>
+
+  </body>
+
+</html>

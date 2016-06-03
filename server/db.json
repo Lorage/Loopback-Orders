@@ -1,0 +1,31 @@
+{
+  "ids": {
+    "Order": 1,
+    "Customer": 2,
+    "AccessToken": 11,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1
+  },
+  "models": {
+    "Order": {},
+    "Customer": {
+      "1": "{\"email\":\"foo@bar.com\",\"password\":\"$2a$10$LyIv9ilq6oay8NwPErWzoeqi.OQ9znzL5gwsxaRbc80OssmE.pFsG\",\"name\":\"Bob\",\"id\":1}"
+    },
+    "AccessToken": {
+      "93YH4Kpx9HdwBFVR6cRRzzRXYCXNVOZ5a4IbGHKs4Zac6ZSTtAdYmfNhZ61ysyzi": "{\"id\":\"93YH4Kpx9HdwBFVR6cRRzzRXYCXNVOZ5a4IbGHKs4Zac6ZSTtAdYmfNhZ61ysyzi\",\"ttl\":1209600,\"created\":\"2016-05-29T11:46:58.228Z\",\"userId\":1}",
+      "WSbxQTg5DICAeCV6APcOpAcNI3bovf0NAJ7CC1VRmWdo46DrT37NLsViUjvvbCOM": "{\"id\":\"WSbxQTg5DICAeCV6APcOpAcNI3bovf0NAJ7CC1VRmWdo46DrT37NLsViUjvvbCOM\",\"ttl\":1209600,\"created\":\"2016-06-02T21:13:48.712Z\",\"userId\":1}",
+      "jcXXridQ4w8EokSWRaqmsLqETF4cO9hKjiUySIRmVjA3TD7pGKO9NSnUMd63zlRM": "{\"id\":\"jcXXridQ4w8EokSWRaqmsLqETF4cO9hKjiUySIRmVjA3TD7pGKO9NSnUMd63zlRM\",\"ttl\":1209600,\"created\":\"2016-06-02T21:14:28.332Z\",\"userId\":1}",
+      "uDsdSNLXtDZFl4KPqsCawSJ1jCVzVUWi2Iq7zoHIlvFruVWezxFkEUFGCKUZEzog": "{\"id\":\"uDsdSNLXtDZFl4KPqsCawSJ1jCVzVUWi2Iq7zoHIlvFruVWezxFkEUFGCKUZEzog\",\"ttl\":1209600,\"created\":\"2016-06-02T22:51:36.385Z\",\"userId\":1}",
+      "uA27X7Fuwtaj04AIcSEuDWQeuYLxwX1payDLjT1DTVigeCZ3xqCuGQZJGq4l15Qu": "{\"id\":\"uA27X7Fuwtaj04AIcSEuDWQeuYLxwX1payDLjT1DTVigeCZ3xqCuGQZJGq4l15Qu\",\"ttl\":1209600,\"created\":\"2016-06-02T22:55:32.556Z\",\"userId\":1}",
+      "t2KWOs9kjGuRxKBr1QzdA1Oyl1kJnUddb1digVSBkGoQdcKnWeH83KIsiuseHoEy": "{\"id\":\"t2KWOs9kjGuRxKBr1QzdA1Oyl1kJnUddb1digVSBkGoQdcKnWeH83KIsiuseHoEy\",\"ttl\":1209600,\"created\":\"2016-06-02T23:19:32.916Z\",\"userId\":1}",
+      "xi9kTNGLT8CiwsfNTDuTM5tDGknC6EKHxH2rgCaaunXd3JSpF7ncu69DAMWPcmPR": "{\"id\":\"xi9kTNGLT8CiwsfNTDuTM5tDGknC6EKHxH2rgCaaunXd3JSpF7ncu69DAMWPcmPR\",\"ttl\":1209600,\"created\":\"2016-06-02T23:28:13.345Z\",\"userId\":1}",
+      "sgFyKYwEvIQ8ZsTAN7j01qAnIAQCgDhC2Jv0RMMWwl80N4ShXZ0TI3Bu2HUnCfoJ": "{\"id\":\"sgFyKYwEvIQ8ZsTAN7j01qAnIAQCgDhC2Jv0RMMWwl80N4ShXZ0TI3Bu2HUnCfoJ\",\"ttl\":1209600,\"created\":\"2016-06-02T23:31:48.633Z\",\"userId\":1}",
+      "D1TVdl8rhalcc4kB4PBHNOFYtTzX4diN1tD6MXq14CoDsRHLa4yyrXDwgzbQBj70": "{\"id\":\"D1TVdl8rhalcc4kB4PBHNOFYtTzX4diN1tD6MXq14CoDsRHLa4yyrXDwgzbQBj70\",\"ttl\":1209600,\"created\":\"2016-06-03T21:35:18.371Z\",\"userId\":1}",
+      "uPV6nuBBWkq83hxT8dYDUxhSepLMA3TVdSIAlzE4lhsuDq3TZv7mHykVzlaCROEC": "{\"id\":\"uPV6nuBBWkq83hxT8dYDUxhSepLMA3TVdSIAlzE4lhsuDq3TZv7mHykVzlaCROEC\",\"ttl\":1209600,\"created\":\"2016-06-03T21:38:44.766Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
+  }
+}
