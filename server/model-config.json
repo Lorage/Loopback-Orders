@@ -36,5 +36,9 @@
   "Role": {
     "dataSource": "memory",
     "public": false
+  },
+  "Business": {
+    "dataSource": "memory",
+    "public": true
   }
 }

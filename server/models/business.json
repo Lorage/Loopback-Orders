@@ -1,31 +1,35 @@
 {
-  "name": "Customer",
-  "plural": "Customers",
-  "base": "User",
+  "name": "Business",
+  "plural": "Businesses",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "email": {
-      "type": "string",
-      "required": true
-    },
-    "password": {
-      "type": "string",
-      "required": true
-    },
     "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "orders": {
+    "customers": {
       "type": "hasMany",
-      "model": "Order",
-      "foreignKey": "orderId"
+      "model": "Customer",
+      "foreignKey": ""
     }
   },
   "acls": [],

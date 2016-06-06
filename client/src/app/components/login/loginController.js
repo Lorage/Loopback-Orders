@@ -11,12 +11,23 @@
 
 			userService.login(vm.userModel).then(
 				function success(response) {
-        sessionStorage.setItem('apiKey', response.data.id);
-				$state.go('order');
+					setDetails(response.data.id);
+
+					userService.getUserDetails(response.data.id).then(function(response){
+						console.log(response)
+						userService.setUserDetails(response.data);
+					});
+
+					$state.go('order');
       }, function error(response) {
         throw new Error('Login failed.');
       });
 
+		}
+
+		function setDetails(id) {
+			userService.setToken(id);
+			sessionStorage.setItem('accessKey', id);
 		}
 
 	}
