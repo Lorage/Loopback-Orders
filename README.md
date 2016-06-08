@@ -4,12 +4,12 @@ A simple login -> create order application using Strongloop and their memory/fil
 # Stack
 Front-end -
 
-Angular
-Angular UI Router
-Bootstrap
-SASS to generate CSS
+* Angular
+* Angular UI Router
+* Bootstrap
+* SASS to generate CSS
 
 Backend - 
 
-NodeJS
-Loopback/Express
+* NodeJS
+* Loopback/Express
